@@ -1,13 +1,9 @@
-import markovify
-import time
 import os
 
 from slack import WebClient
 from slack import RTMClient
 
-# BOT_TOKEN = os.environ["SLACK_BOT_TOKEN"]
-
-BOT_TOKEN = 'xoxb-634428264979-791218203461-DKEIXKbtiIukhLqGZDUYxFW2'
+BOT_TOKEN = os.environ["SLACK_BOT_TOKEN"]
 
 def main():
     """
