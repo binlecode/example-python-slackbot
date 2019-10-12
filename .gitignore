@@ -3,6 +3,10 @@
 *.iml
 .idea/
 
+# bot token
+.bot_token
+.message_db.json
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
